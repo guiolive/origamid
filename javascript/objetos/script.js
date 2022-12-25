@@ -1,0 +1,4 @@
+var cachorro = {
+    nome: "Rex",
+    
+}
