@@ -1,0 +1,26 @@
+.item{
+  background-color: #111;
+  padding: 10px;
+  margin: 10px;
+}
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica;
+  font-size: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+color: #b2b2b2;
+ }
+
+span {
+  color: #febe01;
+} {
+  text-decoration: none;
+  color: #b2b2b2;
+  background-color: #332200;
+}
