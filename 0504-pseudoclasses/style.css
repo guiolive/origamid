@@ -9,35 +9,13 @@ a{
  
 }
 
-a:hover{
-  background: #adf;
-  color: #147;
-
-} 
-
-a:focus{
-  background: #cfa;
-  color: #371;
-  border: 2px solid red;
-}
-
 a:active{
   background: pink;
   color: #761;
 
 }
 
+.lista-1 li:not(:first-child, :last-child){
+background: rgb(236, 12, 5);
 
-div{
-  padding: 1rem 2rem;
-  /* display: inline-block; */
-  background: #147;
-  color: white;
-  font-weight: 600;
-  font-family: Arial;
-}
-
-div:hover{
-  background: #adf;
-  color: purple;
 }
