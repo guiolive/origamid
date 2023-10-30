@@ -110,9 +110,10 @@ p{
 }
 
 .rodape{
-  background: blue;
+  background: rgb(196, 196, 196);
   width: 100%;
   text-align: center;
-  padding: 40px;
+  padding: 20px;
   box-sizing: border-box;
+  color: #fff;
 }
