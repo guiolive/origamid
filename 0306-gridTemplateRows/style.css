@@ -1,16 +1,19 @@
 .grid{
   display: grid;
   gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  place-items: center;
- 
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.foto{
+.titulo{
   grid-column: 1 / -1;
-
 }
 
+.info{
+  display: grid;
+  place-items: start;
+  place-self: start;
+  gap: 20px;
+}
 
 
 
@@ -18,7 +21,6 @@
 
 body{
   font-family: Arial;
-  margin: 40px;
 
 }
 
@@ -28,6 +30,7 @@ h1, p{
  h1{
   font-size: 48px;
   line-height: 1;
+ 
  }
 
  p, span{
@@ -52,5 +55,7 @@ h1, p{
   background: #ddd;
   padding: 5px 10px;
   border-radius: 4px;
+ 
 }
+
 
