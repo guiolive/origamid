@@ -1,0 +1,16 @@
+
+
+span{
+  display: inline-block;
+  background: #ddd;
+
+}
+
+span{
+  padding: 30px;
+  padding: 20px 40px;
+  padding: 20px 40px 100px;
+  border: 10px solid black;
+ 
+}
+

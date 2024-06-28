@@ -1,29 +1,15 @@
 .grid{
   display: grid;
   gap: 20px;
-<<<<<<< HEAD
-  grid-template-columns: repeat(2, 1fr);
-
-=======
   grid-template-columns: 1fr 1fr;
-  place-items: center;
- 
->>>>>>> 57f2c5970f0930493ac0731b06fab9193f604ecf
+  
 }
-
-.foto{
-  grid-column: 1 / -1;
-
-}
-
-
 
 
 /* Estilos gerais */
 
 body{
   font-family: Arial;
-  margin: 40px;
 
 }
 
@@ -51,11 +37,15 @@ h1, p{
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 4px;
+
+
 }
 
 .preco{
   background: #ddd;
   padding: 5px 10px;
   border-radius: 4px;
+ 
 }
+
 
