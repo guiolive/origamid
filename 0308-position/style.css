@@ -1,10 +1,15 @@
-body {
-  background: #f7f7f7;
-  font-family: Arial;
-  
+div{
+  border: 2px solid #ccc;
+  margin-top: 40px;
+  padding: 20px 20px 40px 20px;
 }
 
-.menu{
-  background-color: aqua;
+span{
+  background: #e7e7e7;
+  border: 2px solid #ccc;
+  padding: 10px;
+  position: relative;
+
+
 }
 

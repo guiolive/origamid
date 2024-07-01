@@ -8,6 +8,8 @@
   grid-column: 1 / -1;
 }
 
+
+
 .info{
   display: grid;
   place-items: start;
