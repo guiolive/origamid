@@ -27,14 +27,20 @@ body{
 .conteudo{
   margin-top: 40px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
  
 }
 
-.conteudo1{
-  
+.introducao{
+  display: grid;
+
 }
 
+.introducao h2{
+  justify-self: end;
+  align-content: start;
+  
+}
 
 
 .botao{
@@ -42,18 +48,19 @@ body{
   text-decoration: none;
   color: white;
   background-color: #ee2211;
-  padding: 14px;
+
   border-radius: 5px;
   justify-self: end;
+  
+  
 
 }
 
 .bike{
   max-width: 100%;
   grid-column: 2;
-  grid-row: 1;
+   
 }
-
 span{
   position: absolute;
 }
