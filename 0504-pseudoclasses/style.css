@@ -1,21 +1,16 @@
 a{
-  display: inline-block;
   padding: 1rem 2rem;
-  font-size: 1.5rem;
-  font-family: Arial;
   text-decoration: none;
-  background: #caf;
-  color: #217;
- 
+  background: rgb(213, 106, 255);
+  color: white;
+  position: absolute;
+  margin: 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  
 }
 
-a:active{
-  background: pink;
-  color: #761;
+a:hover{
 
-}
-
-.lista-1 li:not(:first-child, :last-child){
-background: rgb(236, 12, 5);
-
+  background: #000;
 }
