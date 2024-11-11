@@ -1,33 +1,25 @@
-body {
-  font-family: Arial;
-}
-.corpo {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-h1 {
+.titulo{
   text-align: center;
 }
 
-h2 {
-  margin-top: 0px;
-}
-
-.item {
+.conteudo{
   display: grid;
-  background-color: #f7f7f7;
-  border: 1px solid #e7e7e7;
-  padding: 20px;
-  border-radius: 4px;
+  gap: 5px;
+  padding: 10px;
 }
 
-a {
-  margin-top: 10px;
-  text-decoration: none;
-  padding: 10px 20px;
-  background-color: #a8f;
+.conteudo-item{
+  display: grid;
+  background: #f7f7f7;
+  border: solid 1px #E7E7E7;  
+}
+
+.botao{
+  background: #a8f;
   color: #103;
+  text-decoration: none; 
   border-radius: 5px;
+  padding: 20px;
+  
+  
 }
