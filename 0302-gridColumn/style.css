@@ -1,25 +1,44 @@
+body{
+  font-family: Arial;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  margin-top: 0px;
+}
+
 .titulo{
   text-align: center;
 }
 
 .conteudo{
   display: grid;
-  gap: 5px;
-  padding: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
-.conteudo-item{
-  display: grid;
-  background: #f7f7f7;
-  border: solid 1px #E7E7E7;  
+.item{
+display: grid;
+background: #f7f7f7;
+border: 1px solid #e7e7e7;
+margin-bottom: 20px;
+padding: 20px;
+border-radius: 5px;
+
+
 }
 
 .botao{
-  background: #a8f;
+  text-decoration: none;
   color: #103;
-  text-decoration: none; 
+  background: #a8f;
+  padding: 10px 20px;
   border-radius: 5px;
-  padding: 20px;
+  place-self: start;
   
-  
+
+
 }
