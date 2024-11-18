@@ -1,51 +1,47 @@
-.grid{
+.grid {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.titulo{
+.titulo {
   grid-column: 1 / -1;
 }
 
-
-
-.info{
+.info {
   display: grid;
   place-items: start;
   place-self: start;
   gap: 20px;
 }
 
-
-
 /* Estilos gerais */
 
-body{
+body {
   font-family: Arial;
-
 }
 
-h1, p{
+h1,
+p {
   margin: 0px;
 }
- h1{
+h1 {
   font-size: 48px;
   line-height: 1;
- 
- }
+}
 
- p, span{
+p,
+span {
   font-size: 20px;
+}
 
- }
-
- img{
+img {
   max-width: 100%;
   border-radius: 4px;
- }
+  grid-column: 1;
+}
 
-.comprar{
+.comprar {
   background: #a8f;
   color: #103;
   padding: 10px 20px;
@@ -53,11 +49,8 @@ h1, p{
   border-radius: 4px;
 }
 
-.preco{
+.preco {
   background: #ddd;
   padding: 5px 10px;
   border-radius: 4px;
- 
 }
-
-

@@ -2,7 +2,26 @@
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr;
-  
+   
+}
+
+.titulo{
+  grid-column: 2;
+  text-align: right;
+
+}
+
+.preco{
+  place-self: start end;
+}
+
+.comprar{
+  align-self: start;
+  text-align: center;
+}
+
+.descricao{
+  text-align: right;
 }
 
 
