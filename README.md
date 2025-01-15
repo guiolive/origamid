@@ -1,8 +1,8 @@
 # Projeto Front-End Avançado - Sistema de transferência de pacientes
 
-Este é um projeto para gerenciar informações de pacientes utilizando o framework Next.js e outras tecnologias. A aplicação permite realizar operações de CRUD de pacientes, bem como funcionalidades relacionadas a transferências.
+Este é um projeto para gerenciar informações de pacientes utilizando o framework Next.js e outras tecnologias descritas abaixo. A aplicação permite realizar operações de CRUD de pacientes bem como funcionalidades relacionadas a transferências.
 
-Estrutura do Projeto
+## Estrutura do Projeto
 
 A estrutura do projeto é organizada da seguinte forma:
 ```plaintext
@@ -18,8 +18,6 @@ A estrutura do projeto é organizada da seguinte forma:
 │   │   └── page.tsx         # Página de transferências
 │   ├── globals.css          # Estilos globais
 │   ├── layout/              # Layout base do projeto
-│   │   ├── page.tsx         # Página principal do layout
-│   │   └── layout.tsx       # Layout base
 │   └── page.tsx             # Página inicial
 ├── components/              # Componentes reutilizáveis
 │   ├── MenuLateral.tsx      # Componente de menu lateral
@@ -38,8 +36,8 @@ A estrutura do projeto é organizada da seguinte forma:
 ├── tailwind.config.ts       # Configuração do Tailwind CSS
 ├── tsconfig.json            # Configuração do TypeScript
 └── README.md                # Documentação do projeto
-```plaintext
-Tecnologias Utilizadas
+```
+## Tecnologias Utilizadas
 
 Next.js: Framework React para renderização no servidor e geração de páginas estáticas.
 
@@ -47,29 +45,14 @@ TypeScript: Superset do JavaScript com tipagem estática.
 
 Prisma ORM: Para interações com o banco de dados.
 
-# Projeto de Gerenciamento de Pacientes
+### Integrantes: 
+- JERFESON NASCIMENTO CAMPOS SOUZA
+- JOSE VAZ FILHO
+- GUILHERME OLIVEIRA SANTOS
+- JULIO CESAR BATISTA PIRES
+- 
+### Vídeo de apresentação: https://drive.google.com/file/d/1pJmASTN3_61zb6rKB-b26BsM2zbweEwU/view?usp=sharing  
 
-Este é um projeto para gerenciar informações de pacientes, desenvolvido com **Next.js**, **Prisma** e **Tailwind CSS**. O objetivo é criar uma aplicação eficiente para lidar com transferências de pacientes, gerenciamento de dados e exibição de informações.
-
----
-
-## Estrutura do Projeto
-
-A estrutura do projeto é organizada da seguinte forma:
-
-```plaintext
-.
-├── .env                # Variáveis de ambiente
-├── .gitignore          # Arquivos e pastas ignorados pelo Git
-├── .idea/              # Configurações da IDE (ex.: WebStorm ou IntelliJ)
-├── app/
-│   ├── api/
-│   │   └── pacientes/[id]/ # API para manipulação de dados de pacientes
-│   ├── globals.css     # Estilos globais
-│   ├── layout/
-│   │   ├── layout.tsx  # Layout padrão da aplicação
-│   │   └── page.tsx    # Página principal do layout
-│   ├── pacientes/
-│   │   ├── page
+### Professor: DANIEL FERREIRA MONTEIRO ALVES
 
 
