@@ -5,7 +5,7 @@ Este é um projeto para gerenciar informações de pacientes utilizando o framew
 Estrutura do Projeto
 
 A estrutura do projeto é organizada da seguinte forma:
-
+```plaintext
 ├── .env                     # Arquivo de variáveis de ambiente;
 ├── .gitignore               # Configuração para ignorar arquivos no Git;
 ├── .idea/                   # Configurações do ambiente de desenvolvimento
@@ -38,7 +38,7 @@ A estrutura do projeto é organizada da seguinte forma:
 ├── tailwind.config.ts       # Configuração do Tailwind CSS
 ├── tsconfig.json            # Configuração do TypeScript
 └── README.md                # Documentação do projeto
-
+```plaintext
 Tecnologias Utilizadas
 
 Next.js: Framework React para renderização no servidor e geração de páginas estáticas.
@@ -46,5 +46,30 @@ Next.js: Framework React para renderização no servidor e geração de páginas
 TypeScript: Superset do JavaScript com tipagem estática.
 
 Prisma ORM: Para interações com o banco de dados.
+
+# Projeto de Gerenciamento de Pacientes
+
+Este é um projeto para gerenciar informações de pacientes, desenvolvido com **Next.js**, **Prisma** e **Tailwind CSS**. O objetivo é criar uma aplicação eficiente para lidar com transferências de pacientes, gerenciamento de dados e exibição de informações.
+
+---
+
+## Estrutura do Projeto
+
+A estrutura do projeto é organizada da seguinte forma:
+
+```plaintext
+.
+├── .env                # Variáveis de ambiente
+├── .gitignore          # Arquivos e pastas ignorados pelo Git
+├── .idea/              # Configurações da IDE (ex.: WebStorm ou IntelliJ)
+├── app/
+│   ├── api/
+│   │   └── pacientes/[id]/ # API para manipulação de dados de pacientes
+│   ├── globals.css     # Estilos globais
+│   ├── layout/
+│   │   ├── layout.tsx  # Layout padrão da aplicação
+│   │   └── page.tsx    # Página principal do layout
+│   ├── pacientes/
+│   │   ├── page
 
 
